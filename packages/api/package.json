@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "main": "src/index.ts",
+  "type": "module",
   "scripts": {
     "dev": "bun --hot --env-file=./.env src/devServer.ts",
     "lint": "oxlint --type-aware --type-check",
